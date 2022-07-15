@@ -1,5 +1,6 @@
 # GPT NeoX 20B & OPT-30B
 
+Forked from https://github.com/mallorbc/GPTNeoX20B_HuggingFace. Runs inference for GPT NeoX 20B and OPT-30B
 
 ## Requirements
 
@@ -13,11 +14,9 @@ If you don't have enough VRAM you need to make sure you have enough RAM to make 
 
 If you want to download the weights the way I do, you need roughly at least 50GB of Vram for the float16 or bfloat16 weights. If you want to use bfloat16 you need to make sure your CPU and GPU support it.
 
-## Install
+## Dependencies
+```pip3 install -r requirements.txt```
 
-Run the following with conda installed
-
-```conda env create -f env.yml```
 
 ## Running
 
