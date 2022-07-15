@@ -2,7 +2,7 @@
 
 Forked from https://github.com/mallorbc/GPTNeoX20B_HuggingFace. Runs inference for GPT NeoX 20B and OPT-30B
 
-## Requirements
+## Requirements for GPT NeoX 20B
 
 Ideally you have one or more GPUs that total 48GB of VRAM or more.
 
@@ -14,11 +14,19 @@ If you don't have enough VRAM you need to make sure you have enough RAM to make 
 
 If you want to download the weights the way I do, you need roughly at least 50GB of Vram for the float16 or bfloat16 weights. If you want to use bfloat16 you need to make sure your CPU and GPU support it.
 
+## Requirements for OPT-30B
+
+Requires one or more GPUs that total in 70GB of VRAM or more. Similar to GPT-NeoX, the model will still fit on the CPU but the OPTDecoderLayer is painfully slow using CPU inference.
+
+
 ## Dependencies
 ```pip3 install -r requirements.txt```
 
 
 ## Running
+```
+python3 main.py
+```
 
 There are two flags, each can be seen with ```-h```
 
