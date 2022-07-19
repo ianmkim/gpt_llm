@@ -25,9 +25,9 @@ Requires one or more GPUs that total in 70GB of VRAM or more. Similar to GPT-Neo
 
 ## Running
 ```
-python3 main.py
+python3 main.py # for GPT NeoX 20B
 # or alternatively
-python3 main_opt.py
+python3 main_opt.py # for OPT-30B
 ```
 
 
