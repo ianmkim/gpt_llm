@@ -26,7 +26,10 @@ Requires one or more GPUs that total in 70GB of VRAM or more. Similar to GPT-Neo
 ## Running
 ```
 python3 main.py
+# or alternatively
+python3 main_opt.py
 ```
+
 
 There are two flags, each can be seen with ```-h```
 
